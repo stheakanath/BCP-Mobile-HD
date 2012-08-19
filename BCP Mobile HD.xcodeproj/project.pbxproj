@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB9587BB15E09C8800CC981D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9587BA15E09C8800CC981D /* UIKit.framework */; };
+		EB9587BD15E09C8800CC981D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9587BC15E09C8800CC981D /* Foundation.framework */; };
+		EB9587BF15E09C8800CC981D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9587BE15E09C8800CC981D /* CoreGraphics.framework */; };
+		EB9587C515E09C8900CC981D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EB9587C315E09C8900CC981D /* InfoPlist.strings */; };
+		EB9587C715E09C8900CC981D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9587C615E09C8900CC981D /* main.m */; };
+		EB9587CB15E09C8900CC981D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9587CA15E09C8900CC981D /* AppDelegate.m */; };
+		EB9587CE15E09C8900CC981D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9587CD15E09C8900CC981D /* ViewController.m */; };
+		EB9587D115E09C8900CC981D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EB9587CF15E09C8900CC981D /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB9587B615E09C8800CC981D /* BCP Mobile HD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BCP Mobile HD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9587BA15E09C8800CC981D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EB9587BC15E09C8800CC981D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EB9587BE15E09C8800CC981D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EB9587C215E09C8900CC981D /* BCP Mobile HD-Info.plist */ = {isa = PBXFileReference; path = "BCP Mobile HD-Info.plist"; sourceTree = "<group>"; };
+		EB9587C415E09C8900CC981D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EB9587C615E09C8900CC981D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EB9587C815E09C8900CC981D /* BCP Mobile HD-Prefix.pch */ = {isa = PBXFileReference; path = "BCP Mobile HD-Prefix.pch"; sourceTree = "<group>"; };
+		EB9587C915E09C8900CC981D /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		EB9587CA15E09C8900CC981D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EB9587CC15E09C8900CC981D /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		EB9587CD15E09C8900CC981D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EB9587D015E09C8900CC981D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB9587B315E09C8800CC981D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9587BB15E09C8800CC981D /* UIKit.framework in Frameworks */,
+				EB9587BD15E09C8800CC981D /* Foundation.framework in Frameworks */,
+				EB9587BF15E09C8800CC981D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB9587AB15E09C8800CC981D = {
+			isa = PBXGroup;
+			children = (
+				EB9587C015E09C8800CC981D /* BCP Mobile HD */,
+				EB9587B915E09C8800CC981D /* Frameworks */,
+				EB9587B715E09C8800CC981D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB9587B715E09C8800CC981D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB9587B615E09C8800CC981D /* BCP Mobile HD.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB9587B915E09C8800CC981D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB9587BA15E09C8800CC981D /* UIKit.framework */,
+				EB9587BC15E09C8800CC981D /* Foundation.framework */,
+				EB9587BE15E09C8800CC981D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB9587C015E09C8800CC981D /* BCP Mobile HD */ = {
+			isa = PBXGroup;
+			children = (
+				EB9587C915E09C8900CC981D /* AppDelegate.h */,
+				EB9587CA15E09C8900CC981D /* AppDelegate.m */,
+				EB9587CC15E09C8900CC981D /* ViewController.h */,
+				EB9587CD15E09C8900CC981D /* ViewController.m */,
+				EB9587CF15E09C8900CC981D /* ViewController.xib */,
+				EB9587C115E09C8900CC981D /* Supporting Files */,
+			);
+			path = "BCP Mobile HD";
+			sourceTree = "<group>";
+		};
+		EB9587C115E09C8900CC981D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB9587C215E09C8900CC981D /* BCP Mobile HD-Info.plist */,
+				EB9587C315E09C8900CC981D /* InfoPlist.strings */,
+				EB9587C615E09C8900CC981D /* main.m */,
+				EB9587C815E09C8900CC981D /* BCP Mobile HD-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB9587B515E09C8800CC981D /* BCP Mobile HD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB9587D415E09C8900CC981D /* Build configuration list for PBXNativeTarget "BCP Mobile HD" */;
+			buildPhases = (
+				EB9587B215E09C8800CC981D /* Sources */,
+				EB9587B315E09C8800CC981D /* Frameworks */,
+				EB9587B415E09C8800CC981D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "BCP Mobile HD";
+			productName = "BCP Mobile HD";
+			productReference = EB9587B615E09C8800CC981D /* BCP Mobile HD.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB9587AD15E09C8800CC981D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = EB9587B015E09C8800CC981D /* Build configuration list for PBXProject "BCP Mobile HD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EB9587AB15E09C8800CC981D;
+			productRefGroup = EB9587B715E09C8800CC981D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB9587B515E09C8800CC981D /* BCP Mobile HD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB9587B415E09C8800CC981D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9587C515E09C8900CC981D /* InfoPlist.strings in Resources */,
+				EB9587D115E09C8900CC981D /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB9587B215E09C8800CC981D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB9587C715E09C8900CC981D /* main.m in Sources */,
+				EB9587CB15E09C8900CC981D /* AppDelegate.m in Sources */,
+				EB9587CE15E09C8900CC981D /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB9587C315E09C8900CC981D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB9587C415E09C8900CC981D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EB9587CF15E09C8900CC981D /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB9587D015E09C8900CC981D /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB9587D215E09C8900CC981D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		EB9587D315E09C8900CC981D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB9587D515E09C8900CC981D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BCP Mobile HD/BCP Mobile HD-Prefix.pch";
+				INFOPLIST_FILE = "BCP Mobile HD/BCP Mobile HD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EB9587D615E09C8900CC981D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BCP Mobile HD/BCP Mobile HD-Prefix.pch";
+				INFOPLIST_FILE = "BCP Mobile HD/BCP Mobile HD-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB9587B015E09C8800CC981D /* Build configuration list for PBXProject "BCP Mobile HD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9587D215E09C8900CC981D /* Debug */,
+				EB9587D315E09C8900CC981D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB9587D415E09C8900CC981D /* Build configuration list for PBXNativeTarget "BCP Mobile HD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB9587D515E09C8900CC981D /* Debug */,
+				EB9587D615E09C8900CC981D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB9587AD15E09C8800CC981D /* Project object */;
+}
